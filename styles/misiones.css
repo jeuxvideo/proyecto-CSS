@@ -1,0 +1,28 @@
+.container{
+display: flex;
+justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid orangered;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: rgb(184, 85, 48);
+
+}
+
+th{
+    border: 1px;
+    padding: 10px;
+    background-color: coral;
+}
+
+td{
+    border: 1px;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: goldenrod;
+}
